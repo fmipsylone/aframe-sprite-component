@@ -10,13 +10,13 @@ AFRAME.registerComponent('sprite', {
     },
 
 
-    init: function()
+    /*init: function()
     {
         this.textureLoader = new THREE.TextureLoader();
-    },
+    },*/
 
 
-    play: function()
+    /* play: function()
     {
         console.log( this.data.src );
 
@@ -32,13 +32,13 @@ AFRAME.registerComponent('sprite', {
         this.sprite.scale.set( resizeData[0], resizeData[1], resizeData[2] );
 
         this.el.setObject3D('mesh', this.sprite);
-    },
+    },*/
 
 
-    remove: function() {
+    /*remove: function() {
         console.log('remove sprite');
         if (this.mesh) this.el.removeObject3D('mesh');
-    }
+    }*/
 
 });
 
